@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+*{
+  
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@layer utilities{
+  .padding {
+    @apply sm:px-16 px-8 sm:py-24 py-12;
+  }
+
+  .padding-x {
+    @apply sm:px-16 px-8;
+  }
+
+  .padding-y {
+    @apply sm:py-24 py-12;
+  }
+
+  .padding-l {
+    @apply sm:pl-16 pl-8;
+  }
+
+  .padding-r {
+    @apply sm:pr-16 pr-8;
+  }
+
+  .padding-t {
+    @apply sm:pt-24 pt-12;
+  }
+
+  .padding-b {
+    @apply sm:pb-24 pb-12;
+  }
+
+ 
+}
+
+@theme {
+  --breakpoint-wide:1140px;
+}
+
+
+  .card-img{
+    background-image: url(assets/image/thumbnailBackground.svg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  @layer components{
+    .max-container{
+      max-width: 1440px;
+      margin: 0 auto;
+    }
+    .card{
+     @apply bg-white border border-gray-200 rounded-lg shadow-2xl p-6 max-w-sm block
+
+    }
+
+    .input {
+      @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-300 pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-300 max-sm:rounded-full;
+    }
+  }
