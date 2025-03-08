@@ -5,7 +5,7 @@ import offer from '../assets/image/offer.svg'
 
 const SpecialOffer = () => {
   return (
-    <section id='specialOffer' className='flex justify-wrap items-center max-xl:flex-col-reverse gap-10 max-container'>
+    <section id='products' className='flex justify-wrap items-center max-xl:flex-col-reverse gap-10 max-container'>
       <div className='flex-1 flex'>
         <img src={offer} alt='offer' className='object-contain w-full' />
       </div>

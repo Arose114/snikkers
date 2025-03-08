@@ -8,7 +8,7 @@ const Nav = () => {
   const [open, setOpen] =useState(false)
   return (
    <header className='padding-x py-8 w-full absolute z-10 top-0 left-0'>
-    <nav className=' md:flex md:justify-between items-center max-container '>
+    <nav className=' md:flex md:justify-between items-center max-container'>
         <a href='/'>
         <img src={headerLogo}
         alt='Logo'

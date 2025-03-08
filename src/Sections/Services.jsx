@@ -4,7 +4,7 @@ import { services } from '../constants/index'
 
 const Services = () => {
   return (
-    <section id='services' className='flex  justify-between max-container flex-wrap gap-9'>
+    <section id='about-us' className='flex  justify-between max-container flex-wrap gap-9'>
       
                 {services.map((icon,index)=>(
                     <div key={index}>

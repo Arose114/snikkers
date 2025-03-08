@@ -12,7 +12,7 @@ const SuperQuality = () => {
       <h2 className='text-4xl capitalize font-bold font-sans lg:max-w-lg'>We provide you <span className='text-red-400'>super Quality </span>Shoes</h2>
       <p className='mt-6 text-gray-400 lg:max-w-lg leading-7'>Ensuring premium comfort and style, our meticulously crafted footwear is designed to elevate your experience, providing you with unmatched quality, innovation and a touch of elegance.</p>
       <p className='mt-6 text-gray-400 lg:max-w-lg leading-normal '>Our dedication to details and excellence ensures your satisfaction </p>
-      <div className='w-2/4 mt-12'>
+      <div className='md:w-2/4 w-fit mt-12'>
 
       <Button label='view Details' iconURL={arrowRight} className=""/>
       </div>
