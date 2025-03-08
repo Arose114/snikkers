@@ -54,22 +54,22 @@ export const shoes = [
 export const products = [
     {
         imgURL: shoe4,
-        name: "Nike Air Jordan-01",
+        name: "Snikk & Slay-01",
         price: "$200.20",
     },
     {
         imgURL: shoe5,
-        name: "Nike Air Jordan-10",
+        name: "Snikk & Slay-10",
         price: "$210.20",
     },
     {
         imgURL: shoe6,
-        name: "Nike Air Jordan-100",
+        name: "Snikk & Slay-100",
         price: "$220.20",
     },
     {
         imgURL: shoe7,
-        name: "Nike Air Jordan-001",
+        name: "Snikk & Slay-001",
         price: "$230.20",
     },
 ];

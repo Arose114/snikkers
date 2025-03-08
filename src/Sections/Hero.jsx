@@ -12,13 +12,13 @@ const Hero = () => {
     <section id='home' className='w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container'>
       <div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28 '>
 
-        <p className='text-xl font-mono text-red-300 '>Our summer collections</p>
+        <p className='text-xl font-mono text-red-300 '>Our First Class collections</p>
         <h1 className='mt-10 text-8xl font-sans max-sm:text-[72px] max-sm:leading-[82px] font-bold'>
           <span className='xl:bg-white xl:whitespace-nowrap md:relative md:z-10 pr-10'>The New Arrival</span><br>
           </br>
-          <span className='mt-3 text-red-400 inline-block'>Nike</span> Shoes
+          <span className='mt-3 text-red-400 inline-block'>Snikkers</span> Shoes
         </h1>
-        <p className='text-gray-400 font-mono leading-8 text-lg mt-8 mb-14 sm:max-w-sm'>Discover stylish Nike arrivals, quality<br/>
+        <p className='text-gray-400 font-mono leading-8 text-lg mt-8 mb-14 sm:max-w-sm'>Discover stylish snikkers arrivals, quality<br/>
         comfort and innovations for your active life.
         </p>
         <Button label='shop now' iconURL={arrowRight}/>
